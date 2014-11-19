@@ -1,1 +1,10 @@
-Hello world.
+---
+layout: default
+---
+
+<h3><a href="software">Software</a> - Browse LCSR Open-Source Software</h3>
+<h3><a href="posts">Posts</a> - Articles about LCSR Open-Source Software</h3>
+
+{% capture about %}{% include about.md %}{% endcapture %}
+{{ about | markdownify }}
+

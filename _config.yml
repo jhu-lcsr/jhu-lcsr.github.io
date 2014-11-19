@@ -1,0 +1,12 @@
+# Site settings
+title: The Johns Hopkins University Laboratory for Computational Sensing and Robotics
+#email: lcsr-oss@lists.johnshopkins.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Main index for published open-source contributions.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jhu-lcsr.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  jhu-lcsr
+
+# Build settings
+markdown: kramdown
