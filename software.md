@@ -9,7 +9,7 @@ orgs:
 - [jhu-saw, 'The CISST Surgical Assistant Worksatation (SAW) packages']
 - [jhu-dvrk, 'Open hardware and software for using the da Vinci Research Kit']
 repos:
-- [jbohren/conman, 'OROOCS-Based Realtime Controller Manager (ConMan)']
+- [jbohren/conman, 'OROCOS-Based Realtime Controller Manager (ConMan)']
 - [jbohren/xdot, 'Wrappers for drawing graphviz graphs in ROS']
 ---
 
