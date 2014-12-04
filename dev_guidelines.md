@@ -199,7 +199,7 @@ git push orign --tags
 
 Continuous integration testing can be used to guarantee that a repository
 builds and passes any available tests. A simple way to do this which works well
-with GitHub is with [Travis](travis-ci.org).
+with GitHub is with [Travis](http://www.travis-ci.org).
 
 ## Code Standards
 
