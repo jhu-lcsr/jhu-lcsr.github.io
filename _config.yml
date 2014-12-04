@@ -9,4 +9,4 @@ url: "http://jbohren-forks.github.io" # the base hostname & protocol for your si
 github_username:  jhu-lcsr
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
