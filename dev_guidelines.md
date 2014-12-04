@@ -103,7 +103,7 @@ versioning system, called *proto versioning*. In this system, we also use a
 3-element version number, but it corresponds to the following `MORTAL.MAJOR.MINOR`:
 
 - `MORTAL` version when **everything** is changed, restructured, or otherwise broken
-- `MAJOR` version when you make incompatible API chanes
+- `MAJOR` version when you make incompatible API changes
 - `MINOR` version when you add functionality or fix bugs in a backwards-compatible manner
 
 ## User Pattern
@@ -180,9 +180,15 @@ following after merging locally:
 git log `git describe --tags --abbrev=0`..HEAD --oneline --decorate --color
 ```
 
-Merging of  `feature-*` branches necessitates incrementing the `MINOR` version,
-and merging of `breaker-*` branches necessitates incrementing the `MAJOR`
-version.
+Merging of  `feature-xxx` branches which are backwards-compatible necessitate
+incrementing the `MINOR` version, and merging of non-backwards compatible
+`feature-xxx` branches necessitate incrementing the `MAJOR` version, and
+re-setting the `MINOR` version to `0`.
+
+
+If it's clear that there has been a complete redesign of a package, it's
+necessary to increment the `MORTAL` version and re-set the `MAJOR` and `MINOR`
+versions to `0`.
 
 ```
 git tag $MORTAL.$MAJOR.$MINOR
