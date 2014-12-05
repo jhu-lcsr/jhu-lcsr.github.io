@@ -126,10 +126,10 @@ If your code is out of date, you can merge or rebase changes from the original r
 by adding it as a remote to your local clone:
 
 ```
+git checkout feature-my-cool-thing
 git remote add upstream https://github.com/jhu-lcsr/repo-name.git
 git fetch upstream
-git checkout devel
-git merge upstream
+git merge upstream devel
 ```
 
 ## Maintainer Pattern
