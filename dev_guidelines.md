@@ -128,7 +128,8 @@ by adding it as a remote to your local clone:
 ```
 git remote add upstream https://github.com/jhu-lcsr/repo-name.git
 git fetch upstream
-git merge upstream devel
+git checkout devel
+git merge upstream
 ```
 
 ## Maintainer Pattern
